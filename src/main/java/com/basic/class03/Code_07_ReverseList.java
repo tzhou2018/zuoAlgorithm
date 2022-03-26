@@ -91,7 +91,7 @@ public class Code_07_ReverseList {
         head1.next = new Node(2);
         head1.next.next = new Node(3);
         printLinkedList(head1);
-        head1 = reverseList(head1);
+        head1 = reverseListHead(head1);
         printLinkedList(head1);
         // 带头结点
         Node node = reverseListHead(head1);

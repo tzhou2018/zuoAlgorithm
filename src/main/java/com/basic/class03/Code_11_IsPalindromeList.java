@@ -96,6 +96,7 @@ public class Code_11_IsPalindromeList {
         }
         return res;
     }
+
     // 同isPalindrome3
     public static boolean isPalindrome4(Node head) {
         boolean res = true;

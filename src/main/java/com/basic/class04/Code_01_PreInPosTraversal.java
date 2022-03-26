@@ -61,6 +61,7 @@ public class Code_01_PreInPosTraversal {
         System.out.println();
     }
 
+
     // 先把树的最左边分支压入栈中
     public static void inOrderUnRecur(Node head) {
         System.out.print("in-order: ");
@@ -79,7 +80,6 @@ public class Code_01_PreInPosTraversal {
         }
         System.out.println();
     }
-
 
     public static void posOrderUnRecur1(Node head) {
         System.out.print("pos-order: ");

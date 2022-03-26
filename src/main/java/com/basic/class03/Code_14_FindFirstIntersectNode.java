@@ -51,6 +51,7 @@ public class Code_14_FindFirstIntersectNode {
         }
         return n1;
     }
+
     // 无环交点
     public static Node noLoop(Node head1, Node head2) {
         if (head1 == null || head2 == null) {

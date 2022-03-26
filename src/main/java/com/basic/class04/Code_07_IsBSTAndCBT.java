@@ -104,15 +104,6 @@ public class Code_07_IsBSTAndCBT {
             if ((leaf && (l != null || r != null)) || (l == null && r != null)) {
                 return false;
             }
-//            if (l != null) {
-//                queue.offer(l);
-//            }
-//            if (r != null) {
-//                queue.offer(r);
-//            }
-//            if (l == null || r == null) {
-//                leaf = true;
-//            }
             if (l != null) {
                 queue.offer(l);
             }
